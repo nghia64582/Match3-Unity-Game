@@ -139,7 +139,7 @@ public class Board
     internal void FillGapsWithNewItems()
     {
         for (int x = 0; x < boardSizeX; x++)
-        {
+        {   
             for (int y = 0; y < boardSizeY; y++)
             {
                 Cell cell = m_cells[x, y];
@@ -218,7 +218,6 @@ public class Board
 
         return list;
     }
-
 
     public List<Cell> GetVerticalMatches(Cell cell)
     {

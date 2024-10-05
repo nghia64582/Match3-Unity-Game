@@ -69,7 +69,6 @@ public class BoardController : MonoBehaviour
         }
     }
 
-
     public void Update()
     {
         if (m_gameOver) return;
@@ -266,7 +265,6 @@ public class BoardController : MonoBehaviour
 
         FindMatchesAndCollapse();
     }
-
 
     private void SetSortingLayer(Cell cell1, Cell cell2)
     {
